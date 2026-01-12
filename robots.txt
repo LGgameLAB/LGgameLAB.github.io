@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 Allow: /
-Sitemap: https://lggamelab.github.io/sitemap.xml
+Sitemap: https://lukegonsalves.com/sitemap.xml
