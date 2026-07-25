@@ -29,6 +29,7 @@ main_menu = [
     { name = "about", url = "" },
     { name = "projects", url = "/projects", trailing_slash = true },
     { name = "blog", url = "/blog", trailing_slash = true },
+    { name = "repair gallery", url = "/repair-site", trailing_slash = true },
     # { name = "external link", url = "https://github.com", new_tab = true },
 ]
 socials = [
