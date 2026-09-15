@@ -15,7 +15,7 @@ The OCF Decal presents
 
 For today's examples I will be using VIM. Hopefully you guys have gotten a chance to look at VIM
 but maybe it is still confusing and that's okay. It took me 6 months to get decent at using vim and 
-I am still learning. To quote Jaysa:
+I am still learning. To quote OCF Legend Jaysa:
 
 "If you're really dedicated to learning, try to learn a new command each day. Use that command whenever you get the chance until it feels natural.
 The more commands that you know, the cooler you'll look to the guy behind you while you're taking notes in class."
@@ -36,7 +36,7 @@ So shell scripting can be seen as code we write to interface with our computer. 
 </center>
 This example was written in Bash which is an sh-compatible command language. But what does that mean?
 
-To make sure shell scripts work on a all UNIX operating systems, POSIX (Portable Operating System Interface) 
+To make sure shell scripts work on all UNIX operating systems, POSIX (Portable Operating System Interface) 
 sets a standard (IEEE Standard 1003.1) by which all operating systems must comply. This means the same command
 written to your default linux shell `sh` will always work no matter what OS you are running. Nowadays there are
 modern shells such as Bash and Zsh which add their own features on top of `sh`. 
@@ -163,13 +163,25 @@ case "$yesno" in
 esac
 ```
 
+Here is an example of elif that might be useful for the lab..
+```bash
+if [ “$1” -eq 79 ];
+then
+    echo “nice”
+elif [ “$1” -eq 42 ];
+then
+    echo “the answer!”
+else
+    echo “wat r numbers”
+fi
+```
+
 Notes
 * It is important to maintain spaces in your if statement brackets
 * Don't forget quotations when you are dealing with variables
-* Read error messages very carefully. Oftentimes you will have made a syntactical error but the interpreter
-* Be careful for redundancies in your code
+* Read error messages very carefully. Oftentimes you will have made a syntactical error but the interpreter thinks you did something else.
+* Avoid redundancies in your code
     * i.e you do not need to `echo "$(grep)"
-thinks you did something else.
 
 
 Good luck with the lab and please ask questions!
