@@ -11,7 +11,7 @@ max_posts = 5
 <h1> Hello 👋🏼</h1>
 <img src="/images/luke_in_the_bay.jpeg" alt="Description" style="float:right;width:20%;margin-left=10px;position: relative;top: -60px;">
 My name is Luke and I am a student at UC Berkeley studying Applied Mathematics 
-originally from the Sacramento valley. I'm passionate about technology and music and enjoy
+originally from the Sacramento valley. I'm an avid technologist and musician and enjoy
 thinking endlessly about everything.
 
 Feel free to reach out to me (my socials are at the bottom) and check out my blog!
