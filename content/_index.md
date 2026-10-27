@@ -35,5 +35,8 @@ Feel free to reach out to me (my socials are at the bottom) and check out my blo
         <a href="https://joewang.me/">
             <img src="/images/joe.png">
         </a>
+        <a href="https://ericgu.org/">
+            <img src="/images/eric.png">
+        </a>
     </div>
 </div>
